@@ -1,0 +1,14 @@
+{
+  "Plains": {
+    levelReq: 1,
+    maxLevel: 15,
+    mobs: ["grass", "bear"],
+    boss: "Mama"
+  },
+  "Desert": {
+    levelReq: 7,
+    maxLevel: 20,
+    mobs: ["orc"],
+    boss: "Mama"
+  }
+}
