@@ -1,14 +1,6 @@
 {
-  "Plains": {
-    "levelReq": 1,
-    "maxLevel": 15,
-    "mobs": ["grass", "bear"],
-    "boss": "Mama"
-  },
-  "Desert": {
-    "levelReq": 7,
-    "maxLevel": 20,
-    "mobs": ["orc"],
-    "boss": "Mama"
-  }
+  "mega_potion_hp": { "price": 100, "levelReq": 5 },
+  "mega_potion_atk": { "price": 100, "levelReq": 5 },
+  "mega_potion_crt": { "price": 100, "levelReq": 5 },
+  "iron_armor": { "price": 150, "levelReq": 3 }
 }
