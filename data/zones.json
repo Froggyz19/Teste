@@ -1,4 +1,4 @@
-
+{
   "Plains": {
     levelReq: 1,
     maxLevel: 15,
@@ -11,3 +11,4 @@
     mobs: ["orc"],
     boss: "Mama"
   }
+}
