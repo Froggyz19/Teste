@@ -1,0 +1,24 @@
+{
+  cyclone: {
+    name: "Cyclone",
+    level: 5,
+    type: "attack",
+    cooldown: 3,
+    takesTurn: true,
+    use: (atk) => {
+      const dmg = Math.floor(atk * 5);
+      return { message: `You used Cyclone for ${dmg} damage!`, damage: dmg };
+    }
+  },
+  lure_jab: {
+    name: "Lure Jab",
+    level: 10,
+    type: "attack",
+    cooldown: 3,
+    takesTurn: true,
+    use: (atk) => {
+      const dmg = Math.floor(atk * 1.1);
+      return { message: `You used Lure Jab for ${dmg} damage!\nThe enemy is vulnerable!`, damage: dmg, appliesVuln: true };
+    }
+  }
+}
